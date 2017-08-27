@@ -5,8 +5,8 @@ function db($do)
     // DB Info
     $servername = "localhost";
     $username = "root";
-    $password = "ayam";
-    $dbname = "latihan_blog";
+    $password = "passwordna";
+    $dbname = "dbna";
     // DO Connect
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  // customizing PDO
